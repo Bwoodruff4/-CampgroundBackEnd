@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+user1 = User.create(username:"Blake", password: "p", location: "CO")
+favorite1 = Favorite.create(name: "Moraine Park", latitude: "40.9575", longitude: "-80.1198", user: user1)
+
